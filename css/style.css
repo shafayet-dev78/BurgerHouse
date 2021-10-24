@@ -1,0 +1,453 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Alfa Slab One', cursive;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/************** Header Section Start *****************/
+.header-section{
+	width: 100%;
+	background: #ffc657;
+}
+.header-section .menu{
+	width: 100%;
+}
+.header-section .menu .container{
+	width: 1140px;
+}
+.header-section .menu .phone{
+	width: 100%;
+	text-align: right;
+}
+
+.header-section .menu .phone .phone-no{
+	width:50px ;
+	position: relative;
+	margin: 28px 0px 0px 880px;
+}
+.header-section .menu .phone h5 {
+    font-size: 12px;
+    line-height: 22px;
+    font-family: monserrat;
+    letter-spacing: 1px;
+    position: absolute;
+    margin: 28px -220px;
+}
+.header-section .menu .bg-light {
+    --bs-bg-opacity: 1;
+    background-color: transparent !important;
+}
+.header-section .menu .navbar-light .phone-no{
+	margin-left: 392px;
+}
+.header-section .menu .navbar-light .navbar-brand .logo {
+    margin: -40px 0px 0px 0px;
+	width: 200px;
+}
+.header-section .menu .navbar-light .navbar-nav .nav-link {
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12px;
+	letter-spacing: 3px;
+	margin: -20px 0px 0px 40px;
+    transition: 1s;
+    font-weight: 500;
+}
+.header-section .menu .navbar-light .navbar-nav .nav-link:hover, .header-section .menu .navbar-light .navbar-nav .nav-link:focus{
+	color: #bf2222;
+	font-weight: 600;
+}
+.header-section h5{
+	font-size: 12px;
+}
+.header-section .banner{
+	width: 100%;
+}
+.header-section .banner .inner-banner{
+	width: 100%;
+	padding: 40px 0px;
+}
+.header-section .banner .inner-banner img{
+	position: relative;
+	width: 300px;
+}
+.header-section .banner .inner-banner h5{
+	position: absolute;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	margin: 14px 0px 0px 8px;
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.header-section .banner .inner-banner h1 {
+    font-size: 80px;
+    color: #3d2514;
+    text-transform: uppercase;
+    text-shadow: 2px 3px #fff;
+}
+.header-section .banner .inner-banner h3{
+	font-size: 36px;
+	color: #3d2514;
+	text-shadow: 1px 2px #fff;
+	text-transform: uppercase;
+}
+.header-section .banner .img-fluid{
+	position: relative;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+    height: 550px;
+    width: 550px;
+    margin-top: -85px;
+}
+.header-section .banner .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: transparent;
+    border: 0px;
+	border-radius: ০px;
+	height: 400px;
+}
+.header-section .banner .card .card-body .card-text{
+	font-size: 48px;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	margin: -223px 120px;
+	z-index: 2;
+	position: absolute;
+	line-height: 26px;
+}
+.header-section .banner .card .card-body .card-text span{
+	font-size: 24px;
+	letter-spacing: 6px;
+	font-weight: 400;
+	margin-left: 10px;
+}
+sub {
+    bottom: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+.header-section .banner .card .card-body .design{
+	margin: -422px 0px 0px 95px;
+	width: 120px;
+	z-index: 0;
+}
+/************** Header Section End *****************/
+/************** Popular Section Start *****************/
+.popular{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.popular .img-fluid-1{
+   	width: 40%;
+    position: absolute;
+    z-index: 0;
+}
+.popular .img-fluid-2{
+   	width: 40%;
+    position: absolute;
+    z-index: 0;
+}
+.popular .img-fluid-3{
+   	width: 40%;
+    position: absolute;
+    z-index: 0;
+    margin-top: 160px;
+}
+.popular .img-text{
+	width: 100%;
+	z-index: 1;
+}
+.popular .img-text h4{
+	position: absolute;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 20px 0px 0px 20px;
+}
+.popular .img-text h2{
+	position: absolute;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 400;
+	margin: 48px 0px 0px 20px;
+	text-transform: uppercase;
+}
+.popular .img-text1{
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+}
+.popular .img-text1 h4{
+	position: absolute;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 20px;
+}
+.popular .img-text1 h2{
+	position: absolute;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 400;
+	margin: 48px 0px 0px 20px;
+	text-transform: uppercase;
+	line-height: 34px;
+}
+.popular .img-text2{
+	width: 100%;
+	z-index: 2;
+	position: absolute;
+}
+.popular .img-text2 h4{
+	position: absolute;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 180px 0px 0px 20px;
+}
+.popular .img-text2 h2{
+	position: absolute;
+	font-size: 24px;
+	line-height: 34px;
+	color: #fff;
+	font-weight: 400;
+	margin: 200px 0px 0px 20px;
+	text-transform: uppercase;
+}
+/************** Popular Section End *****************/
+/************** enjoy Section Start *****************/
+.enjoy{
+	width: 100%;
+	padding: 280px 0px 0px;
+}
+.enjoy .title{
+	width: 100%;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.enjoy .title h4{
+	z-index: 2;
+	position: absolute;
+	margin: 11px 0px 0px 462px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.enjoy .title img{
+	height: 35px;
+	width: 20%;
+	margin-bottom: 20px;
+}
+.enjoy .title h2{
+	font-size: 36px;
+	line-height: 34px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.enjoy .title p{
+	font-size: 12px;
+	padding: 10px 90px;
+	line-height: 22px;
+}
+.enjoy .card {
+    position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 0px;
+	border-radius: 0px;
+	text-align: center;
+	width: 325px;
+	height: 480px;
+}
+.enjoy .card .card-body{
+	width: 100%;
+}
+.enjoy .card .shadow{
+	opacity: 50%;
+}
+.enjoy .card .card-body .card-title{
+	font-size: 20px;
+	line-height: 34px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #3d2514;
+}
+.enjoy .card .card-body .card-text{
+	font-size: 12px;
+	line-height: 22px;
+	color: #3d2514;
+}
+.enjoy .card .card-body .btn-danger{
+	font-size: 12px;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 5px 20px;
+	background: #dc3545;
+	color: #fff;
+	transition: 1s;
+}
+.enjoy .card .card-body .btn-danger:hover,.enjoy .card .card-body .btn-danger:focus{
+	background: transparent;
+	color: #dc3545;
+}
+/************** enjoy Section End *****************/
+/************** slider Section Start *****************/
+.slider{
+	width: 100%;
+	padding: 80px 0px 20px;
+}
+.slider .mt-0{
+	font-size: 18px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #3d3d3d;
+	padding-top: 40px;
+}
+.slider .bg-light{
+	margin-bottom: 30px;
+}
+.slider .bg-light .col-md-6 h2{
+	font-size: 28px;
+	line-height: 38px;
+	text-transform: capitalize;
+	color: #3d2514;
+}
+.slider .bg-light .col-md-6 p{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: capitalize;
+	color: #3d3d3d;
+	padding-right: 90px;
+}
+/************** slider Section End *****************/
+/************** reservation Section Start *****************/
+.reservation{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/section 5 cover.png") center top no-repeat;
+	background-size: cover;
+	height: 670px;
+}
+.reservation h4{
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #3d2514;
+}
+.reservation h2{
+	font-size: 28px;
+	line-height: 38px;
+	text-transform: uppercase;
+	text-align: center;	
+	color: #3d2514;
+	margin-bottom: 50px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #717171;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-transform: uppercase;
+}
+.reservation .btn-danger{
+	font-size: 12px;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 5px 138px;
+	background: #dc3545;
+	color: #fff;
+	transition: 1s;
+}
+.reservation .btn-danger:hover{
+	background: transparent;
+	color: #dc3545;
+}
+
+/************** reservation Section End *****************/
+/************** footer Section Start *****************/
+.footer{
+	width: 100%;
+	padding: 40px 0px 10px;
+	background: url("../images/down banner.png") center top no-repeat;
+	background-size: auto;
+}
+.footer .container{
+	width: 1140px;
+}
+.footer img{
+	height: 55px;
+	margin: 50px 0px;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	margin-bottom: 200px;
+    padding-right: 50px;
+}
+}
+.footer .fa{
+	color: #fff;
+	font-size: 16px;
+}
+.footer .social-media{
+	text-align: right;
+}
+.footer .social-media .fa{
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 10px;
+}
+.footer ul{
+	margin-top: 200px;
+}
+.footer ul li{
+	list-style: none;
+	color: #fff;
+	margin-left: 200px;
+}
+
+/************** footer Section End *****************/
